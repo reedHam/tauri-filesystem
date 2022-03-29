@@ -4,10 +4,10 @@
     "version": "0.1.0"
   },
   "build": {
-    "distDir": "../dist",
+    "distDir": "../src",
     "devPath": "http://localhost:3000",
-    "beforeDevCommand": "yarn dev",
-    "beforeBuildCommand": "yarn build"
+    "beforeDevCommand": "",
+    "beforeBuildCommand": ""
   },
   "tauri": {
     "bundle": {
@@ -33,7 +33,6 @@
       },
       "macOS": {
         "frameworks": [],
-        "minimumSystemVersion": "",
         "useBootstrapper": false,
         "exceptionDomain": "",
         "signingIdentity": null,
@@ -54,7 +53,7 @@
     },
     "windows": [
       {
-        "title": "File System",
+        "title": "file-system",
         "width": 800,
         "height": 600,
         "resizable": true,
